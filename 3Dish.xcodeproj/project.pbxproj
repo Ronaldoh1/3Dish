@@ -52,13 +52,29 @@
 		E4450CEF29FB2C8400BC89CF /* 3Dish */ = {
 			isa = PBXGroup;
 			children = (
-				E4450CF029FB2C8400BC89CF /* AppDelegate.swift */,
-				E4450CF429FB2C8400BC89CF /* RestaurantViewController.swift */,
+				E46661CB29FDD501002D7611 /* Controller */,
+				E46661CA29FDD4EF002D7611 /* Setup */,
 				E4450CF929FB2C8700BC89CF /* Assets.xcassets */,
 				E4450CFB29FB2C8700BC89CF /* LaunchScreen.storyboard */,
 				E4450CFE29FB2C8700BC89CF /* Info.plist */,
 			);
 			path = 3Dish;
+			sourceTree = "<group>";
+		};
+		E46661CA29FDD4EF002D7611 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				E4450CF029FB2C8400BC89CF /* AppDelegate.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		E46661CB29FDD501002D7611 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4450CF429FB2C8400BC89CF /* RestaurantViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
